@@ -4,7 +4,7 @@
 
 a) O(n) because n the number of times the while loop is executed is determined by what n is.
 
-b) O(n^2) because of the nested while loop in the for loop and number of iterations of the loop is dependant of j < n
+b) O(n(log n)) because of the nested while loop in the for loop and number of iterations of the loop is dependant of j < n
 
 c) 0(1 ^n) because there is one recursive call and the number of times is based of n or bunnies
 
