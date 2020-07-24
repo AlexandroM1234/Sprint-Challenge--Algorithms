@@ -96,9 +96,12 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # Fill this out
-        pass
-
+        # Start a while loop and go until move right returns false
+        # inside the loop start at the beginning then compare each item if the comparison returns 1 swap then keep moving right until you can't
+        while self.move_right() != False:
+            if self.compare_item() == None:
+                self.move_right()
+            elif self.compare_item()
 
 if __name__ == "__main__":
     # Test our your implementation from the command line
